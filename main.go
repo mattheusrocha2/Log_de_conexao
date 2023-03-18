@@ -1,0 +1,15 @@
+package main
+
+//SISTEMA PARA CRIAR NOVOS ARQUIVOS EM TXT QUANDO NÃO EXISTIR
+//ESCREVER DENTRO DO ARQUIVO DADOS
+//LER OS DADOS DENTRO DO ARQUIVO
+
+import (
+	"gerador/pkg"
+)
+
+func main() {
+
+	pkg.Menu()
+
+}

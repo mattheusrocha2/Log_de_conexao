@@ -1,0 +1,11 @@
+18/03/2023 00:24:06 - www.gmail.com - Online
+18/03/2023 00:24:15 - www.gmail.com/884754 - Offline
+18/03/2023 00:31:01 - www.gmail.com - Online
+18/03/2023 00:31:18 - www.gmail.com/845789 - Offline
+18/03/2023 00:42:01 - www.gmail.com - Online - IP: 
+18/03/2023 01:08:03 - www.gmail.com - Status Online - IP: 
+18/03/2023 01:08:34 - www.gmail.com - Status Online - IP: 
+18/03/2023 01:17:26 - www.gmail.com - Status Online - IP: 
+18/03/2023 01:47:04 - www.gmail.com - Status Online - IP: [2800:3f0:4004:808::2005 142.250.79.5]
+18/03/2023 01:49:44 - www.google.com.br - Status Online - IP Host: [2800:3f0:4004:809::2003 142.251.135.131]18/03/2023 01:56:14 - www.globo.com - Status Online - IP Host: [186.192.81.5]
+18/03/2023 01:57:57 - www.globo.com - Status Online - IP Host: [186.192.81.5]
