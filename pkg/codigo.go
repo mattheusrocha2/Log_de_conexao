@@ -2,6 +2,7 @@ package pkg
 
 import (
 	"fmt"
+	"io/ioutil"
 	"net"
 	"net/http"
 	"os"
@@ -25,6 +26,8 @@ func Menu() {
 			site()
 		case 2:
 			fmt.Println("Opção ", opcao, " Selecionada!")
+			fmt.Println("")
+			imprimeLogs()
 		case 0:
 			fmt.Println("Opção ", opcao, " Selecionada. Saindo do Sistema ...")
 			os.Exit(0)
@@ -90,6 +93,7 @@ func MenuScape() {
 			site()
 		case 2:
 			fmt.Println("Opção ", opcao, " Selecionada!")
+			imprimeLogs()
 		case 0:
 			fmt.Println("Opção ", opcao, " Selecionada. Saindo do Sistema ...")
 			os.Exit(0)
@@ -117,5 +121,15 @@ func registraLog(site string, status bool) {
 		var str = "Status Offline"
 		arquivo.WriteString(time.Now().Format("02/01/2006 15:04:05") + " - " + site + " - " + str + " - IP Host: " + fmt.Sprint(ipHost, "\n"))
 	}
+
+}
+
+func imprimeLogs() {
+
+	arquivo, erro := ioutil.ReadFile("log.txt")
+	if erro != nil {
+		fmt.Println("Ocorreu um erro: ", erro)
+	}
+	fmt.Println(string(arquivo))
 
 }
